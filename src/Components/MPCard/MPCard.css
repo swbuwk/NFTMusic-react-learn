@@ -1,0 +1,95 @@
+.mp-card {
+  position: relative;
+  width: 220px;
+  height: 270px;
+}
+
+.mp-card > img {
+  height: 195px;
+  width: 195px;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  transition: 0.25s;
+}
+
+.mp-card:hover > img {
+  filter: brightness(0.7);
+}
+
+.mp-card-border {
+  position: relative;
+  width: 195px;
+  height: 265px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.mp-card-border .up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 1px;
+  width: 15px;
+}
+
+.mp-card-border .left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  height: 100%;
+  width: 1px;
+}
+
+.mp-card-border .down {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  height: 1px;
+  width: 100%;
+}
+
+.mp-card-border .right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  height: 85px;
+  width: 1px;
+}
+
+.mp-card-border .info {
+  height: 55px;
+  width: 100%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.mp-card-border .price {
+  font-weight: 400;
+  width: fit-content;
+}
+
+.mp-card-border .price img {
+  margin-right: 5px;
+}
+
+.mp-card-border .price .underline {
+  height: 1px;
+  width: 0;
+  background-color: white;
+  transition: 0.25s;
+}
+
+.mp-card:hover .price .underline {
+  width: 100%;
+}

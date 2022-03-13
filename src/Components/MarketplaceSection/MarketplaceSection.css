@@ -1,0 +1,43 @@
+.mp-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.mp-section h1 {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 97px;
+  margin-bottom: 17px;
+}
+
+.mp-section h5 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+
+.mp-section > .info {
+  margin-left: 120px;
+}
+
+.mp-cards {
+  display: flex;
+  margin-left: 100px;
+  max-width: 600px;
+  flex-wrap: wrap;
+}
+
+.mp-cards > * {
+  margin: 30px;
+}
+
+.mp-cards > *:nth-child(2n) {
+  margin-top: 50px;
+}
+
+.mp-cards > *:nth-child(3) {
+  margin-left: 50px;
+}

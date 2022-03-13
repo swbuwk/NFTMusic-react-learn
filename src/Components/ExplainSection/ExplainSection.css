@@ -1,0 +1,55 @@
+.explain-section {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+
+.text-block {
+  margin-top: 33px;
+  z-index: 2;
+}
+
+.explain-section h1 {
+  max-width: 700px;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 97px;
+  margin-bottom: 36px;
+}
+
+.explain-section h5 {
+  max-width: 600px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.explain-section img {
+  animation: 5s floating ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.explain-section .background-gradient {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 25%;
+  right: 20%;
+
+  background: linear-gradient(180deg, #2603fb 0%, #dc06ff 100%);
+  filter: blur(300px);
+  transform: rotate(-22.54deg);
+}

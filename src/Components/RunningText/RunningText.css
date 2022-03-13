@@ -1,0 +1,95 @@
+.running-text-block {
+  position: relative;
+  height: 75px;
+  width: 100%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.running-text {
+  position: absolute;
+  display: flex;
+  width: 486px;
+  align-items: center;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  flex-wrap: nowrap;
+}
+
+.running-text img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.running-text:nth-child(1) {
+  animation: run1 5s linear infinite;
+}
+
+@keyframes run1 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.running-text:nth-child(2) {
+  transform: translateX(100%);
+  animation: run2 5s linear infinite;
+}
+
+@keyframes run2 {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.running-text:nth-child(3) {
+  transform: translateX(200%);
+  animation: run3 5s linear infinite;
+}
+
+@keyframes run3 {
+  from {
+    transform: translateX(200%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.running-text:nth-child(4) {
+  transform: translateX(300%);
+  animation: run4 5s linear infinite;
+}
+
+@keyframes run4 {
+  from {
+    transform: translateX(300%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+.running-text:nth-child(5) {
+  transform: translateX(400%);
+  animation: run5 5s linear infinite;
+}
+
+@keyframes run5 {
+  from {
+    transform: translateX(400%);
+  }
+  to {
+    transform: translateX(300%);
+  }
+}
