@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/NFTMusic-react-learn/static/css/main.1734067e.css",
+    "main.js": "/NFTMusic-react-learn/static/js/main.8474aa49.js",
+    "static/js/787.3fc3ef22.chunk.js": "/NFTMusic-react-learn/static/js/787.3fc3ef22.chunk.js",
+    "static/media/bg-gradient.png": "/NFTMusic-react-learn/static/media/bg-gradient.4edab15952ec30d95fd4.png",
+    "static/media/hand.png": "/NFTMusic-react-learn/static/media/hand.2a6063931c71d7165e43.png",
+    "static/media/photo.png": "/NFTMusic-react-learn/static/media/photo.b5763b606ee452313b10.png",
+    "static/media/pic1.png": "/NFTMusic-react-learn/static/media/pic1.323b0761c06c52e7bbdc.png",
+    "static/media/pic3.png": "/NFTMusic-react-learn/static/media/pic3.cec484d39523a9669597.png",
+    "static/media/pic4.png": "/NFTMusic-react-learn/static/media/pic4.3c91923bb3586918ccee.png",
+    "static/media/pic2.png": "/NFTMusic-react-learn/static/media/pic2.6f834b6f398f3c769033.png",
+    "static/media/logo.svg": "/NFTMusic-react-learn/static/media/logo.19000f58935c12dd9fde533acd7ba6d2.svg",
+    "static/media/globe.svg": "/NFTMusic-react-learn/static/media/globe.56eeadee8e1620f907763677cb6f297c.svg",
+    "index.html": "/NFTMusic-react-learn/index.html",
+    "main.1734067e.css.map": "/NFTMusic-react-learn/static/css/main.1734067e.css.map",
+    "main.8474aa49.js.map": "/NFTMusic-react-learn/static/js/main.8474aa49.js.map",
+    "787.3fc3ef22.chunk.js.map": "/NFTMusic-react-learn/static/js/787.3fc3ef22.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1734067e.css",
+    "static/js/main.8474aa49.js"
+  ]
+}
